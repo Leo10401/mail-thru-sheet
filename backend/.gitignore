@@ -3,3 +3,4 @@ credentials.json
 *.json
 /credentials.json
 /.env
+/node_modules
