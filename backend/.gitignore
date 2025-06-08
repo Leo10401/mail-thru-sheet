@@ -1,6 +1,6 @@
 credentials.json
 .env
-*.json
+
 /credentials.json
 /.env
 /node_modules

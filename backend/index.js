@@ -544,7 +544,7 @@ app.post('/send-emails/:spreadsheetId/:range', async (req, res) => {
           // Find and replace the certificate link in the HTML body
           personalizedBody = personalizedBody.replace(
             /<a href="#"([^>]*)>\s*Get Your Certificate\s*<\/a>/g,
-            `<a href="${contact.certificateLink}"$1> 📜 Get your certificate </a>`
+            `<a href="${contact.certificateLink}"$1> Get your certificate </a>`
           );
         }
 
